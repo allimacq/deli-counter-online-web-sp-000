@@ -31,7 +31,15 @@ def line(katz_deli)
 end
 
 def take_a_number(katz_deli, new_customer)
+  #using the shovel method to add the new_customer to the end of the line
   katz_deli << new_customer
+  #there position in line is equal to the length of the katz_deli string
   position = katz_deli.length()
   puts "Welcome, #{new_customer}. You are number #{position} in line."
+end
+
+def now_serving(katz_deli)
+  #current customer is the first person in the array so we use the shift method to call and remove them!
+    current = katz_deli.shift
+    puts "Currently serving #{current}"
 end
