@@ -30,8 +30,8 @@ def line(katz_deli)
 end
 
 def take_a_number(katz_deli, new_customer)
-  position = line(katz_deli).length()
-  p line(katz_deli)
+  #position = line(katz_deli).length()
+  puts line(katz_deli)
   #p "Welcome, #{new_customer}. You are number #{position} in line."
   p "HHHHH"
 end
