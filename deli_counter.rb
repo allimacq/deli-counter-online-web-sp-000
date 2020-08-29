@@ -31,6 +31,6 @@ def line(katz_deli)
 end
 
 def take_a_number(katz_deli, new_customer)
-  puts katz_deli << person 
+  puts katz_deli << new_customer 
   #p "Welcome, #{new_customer}. You are number #{position} in line."
 end
