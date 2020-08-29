@@ -40,7 +40,7 @@ end
 
 def now_serving(katz_deli)
   #current customer is the first person in the array so we use the shift method to call and remove them!
-    if katz_deli.length() < 100
+    if katz_deli.length() != 0
       current = katz_deli.shift
       puts "Currently serving #{current}."
     #if no one is in line
