@@ -30,6 +30,7 @@ def line(katz_deli)
 end
 
 def take_a_number(katz_deli, new_customer)
+  binding.pry
   #position = line(katz_deli).length()
   line = line(katz_deli)
   p line
