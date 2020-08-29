@@ -31,5 +31,7 @@ end
 
 def take_a_number(katz_deli, new_customer)
   position = katz_deli.length() + 1
+  p position
   p "Welcome, #{new_customer}. You are number #{position} in line."
+  p "HHHHH"
 end
