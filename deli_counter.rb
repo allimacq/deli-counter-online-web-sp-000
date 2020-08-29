@@ -12,7 +12,7 @@ def line(katz_deli)
   
   #if there is a line...  
   elsif katz_deli.length < 100
-    #matching name with the order the came in using each.with_index(1) so we can start with one, as a line does
+    #matching name with the order they came in using each.with_index(1) so we can start with one, as a line does
     katz_deli.each.with_index(1) do |name, index|
     
       #using the array we initialized above to hold the name and place
@@ -30,8 +30,8 @@ def line(katz_deli)
 end
 
 def take_a_number(katz_deli, new_customer)
-  position = katz_deli.length() + 1
-  p katz_deli
-  p "Welcome, #{new_customer}. You are number #{position} in line."
+  position = line(katz_deli).length()
+  p line(katz_deli)
+  #p "Welcome, #{new_customer}. You are number #{position} in line."
   p "HHHHH"
 end
