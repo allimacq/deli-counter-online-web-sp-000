@@ -35,5 +35,4 @@ def take_a_number(katz_deli, new_customer)
   line = line(katz_deli)
   p line
   #p "Welcome, #{new_customer}. You are number #{position} in line."
-  p "HHHHH"
 end
